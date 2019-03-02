@@ -4,8 +4,8 @@ plugins {
 group 'util-crud'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.10
-targetCompatibility = 1.10
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 allprojects {
     apply plugin:'java'
