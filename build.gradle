@@ -1,7 +1,7 @@
 plugins {
     id 'java'
 }
-
+group 'util-crud'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.10
