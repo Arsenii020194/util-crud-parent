@@ -1,0 +1,2 @@
+rootProject.name = 'util-crud-parent'
+include('util-crud-controller', 'util-crud-dao', 'util-crud-service')

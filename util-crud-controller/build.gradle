@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'util-crud'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.10
+targetCompatibility = 1.10
+
+dependencies {
+    compile project(':util-crud-service')
+    compile group: 'org.springframework', name: 'spring-web', version: '5.1.5.RELEASE'
+}
