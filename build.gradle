@@ -4,6 +4,8 @@ plugins {
 group 'util-crud'
 version '1.0-SNAPSHOT'
 
+jar.enabled = false
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
