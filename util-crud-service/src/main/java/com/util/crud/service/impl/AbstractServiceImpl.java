@@ -8,11 +8,13 @@ import com.util.crud.service.AbstractService;
 import com.util.crud.service.util.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.GenericTypeResolver;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Transactional
 public abstract class AbstractServiceImpl<D extends AbstractDto, P extends AbstractParams> implements AbstractService<D, P> {
 
     private Mapper<D> mapper;
